@@ -1,0 +1,14 @@
+.Button{
+    background-color: rgb(129, 62, 168);
+    border-radius: 10px; 
+}
+.card-body{
+    background-color: rgb(24, 24, 25);
+    color: white;
+}
+.card-text{
+    color:  rgb(105, 105, 104);
+}
+.card-img-top{
+    background-color:rgb(24, 24, 25) ;
+}

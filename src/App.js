@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import Navbar from "./components/navbar/Navbar";
+import Trending from "./components/trendingCollection/Trending";
+import "./App.css"
+import Top from "./components/topCreator/Top";
+import Discover from "./components/discoverNfts/Discover";
+import Browse from "./components/browse/Browse";
+import Work from "./components/work/Work";
+import Join from "./components/join/Join";
+import Footer from "./components/footer/Footer";
+import Header from "./components/header/Header";
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <Header />
+      <Trending />
+      <Top />
+      <Discover />
+      <Browse />
+      <Work />
+      <Join />
+    <Footer />
     </div>
   );
 }
